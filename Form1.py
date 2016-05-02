@@ -17,7 +17,7 @@ transporte = DoubleVar()
 complejidad = ""
 
 def abrir():
-	os.startfile(r'C:\Users\Santiago\Desktop\Nueva carpeta\Form2.py')
+	os.startfile(r'C:\Users\Santiago\Desktop\Proyecto\Form1\Formulario2.py')
 
 def promedio():
 	total = (manodeobra.get()+materiales.get()+equipos.get()+transporte.get())

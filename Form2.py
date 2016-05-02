@@ -39,19 +39,22 @@ def guardar():
 #RADIOBUTTONS
 
 radiobtnlineal = Radiobutton(master, variable = valor, background = "white", text = "Lineal", command = fncLineal, value = 0)
-radiobtnlineal.place(x= 60, y = 30)
+radiobtnlineal.place(x= 50, y = 40)
 
 radiobtncntrado = Radiobutton(master, variable = valor, background = "white", text = "Concentrado", command = fncConcentrado, value = 1)
-radiobtncntrado.place(x = 120, y = 30)
+radiobtncntrado.place(x = 110, y = 40)
 
 "////////////////////////////////////////////////////////////////////////////////////////////////"
 
+
+txt1 = Label(master, text = 'Por favor, seleccione el tipo de proyecto a desarrollar, luego de la selección, haga click en el botón "Seleccionar Actividades"', background = "white")
+txt1.place(x = 50, y = 15)
 
 big = Frame(bg = 'Black', height = 372, width = 1000)
 big.place(x = 50, y= 70)
 lista = Listbox(big, activestyle = 'dotbox', bg = 'white', height = '23', width = 600)
 lista.place(x = 0, y = 0)
-boton = Button(master, height = 2, width = 20, text = "Guardar", command = guardar)
+boton = Button(master, height = 2, width = 20, text = "Seleccionar actividades", command = guardar)
 boton.place(x = 840, y = 450)
 
 archivoLineal = open('lineal.txt', 'r')
