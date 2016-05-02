@@ -3,8 +3,7 @@
 
 import  os
 import sys
-from Tkinter import *
-import ttk
+from tkinter import *
 
 master = Tk()
 master.geometry("1200x550+0+0")
@@ -59,5 +58,9 @@ archivoLineal = open('lineal.txt', 'r')
 archivoConcentrado = open('concentrado.txt', 'r')
 
 "////////////////////////////////////////////////////////////////////////////////////////////////////"
+
+for i in range(25):
+		lista.insert(END, archivoLineal.readline())
+radiobtnlineal.select()
 
 master.mainloop()

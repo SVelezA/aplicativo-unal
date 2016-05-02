@@ -3,7 +3,7 @@
 
 import os
 import sys
-from Tkinter import *
+from tkinter import *
 
 master = Tk()
 master.geometry("710x450+0+0")
@@ -16,6 +16,9 @@ equipos = DoubleVar()
 transporte = DoubleVar()
 complejidad = ""
 
+def abrir():
+	os.startfile(r'C:\Users\Santiago\Desktop\Nueva carpeta\Form2.py')
+
 def promedio():
 	total = (manodeobra.get()+materiales.get()+equipos.get()+transporte.get())
 	total = round(total, 1)
@@ -27,7 +30,7 @@ def promedio():
 	elif total < 2.5 and total >= 0:
 		complejidadtxt.config(text = "Proyecto de complejidad Baja")
 
-boton1 = Button(master, text="Seleccione el tipo de proyecto")
+boton1 = Button(master, text="Seleccione el tipo de proyecto", command = abrir)
 boton1.place(x=270, y= 350)
 
 "//////////////////////////////////////////////////////////////////////////////////////////////////////////"
