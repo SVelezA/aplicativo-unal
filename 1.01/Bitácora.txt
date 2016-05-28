@@ -1,0 +1,4 @@
+Commit - Segundo Formulario // 27/04/2016 
+
+Commit - Tercer Formulario, 08/05/2016, aún con arreglos por aplicar a los radiobuttons, métodos gráficos e 
+		implementaciones en stand-by.
