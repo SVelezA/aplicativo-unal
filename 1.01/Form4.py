@@ -1,12 +1,14 @@
 import os
 import sys
 from tkinter import *
+import RActImp
 
 app = Tk()
 app.geometry("1000x400+0+0")
 app.config(background="white")
 app.title("Form4")
 
+save1 = open('save1.txt', 'r')
 
 "//////////////////////////////////////////////////////////////////////////////////////////////////"
 #Frames para cada tipo de impacto
@@ -147,6 +149,14 @@ def Político():
 	frmEc.grid_remove()
 	frmSc.grid_remove()
 	frmPol.grid()
+
+def marcartodas():
+	for i in range(36):
+		botones[i].select()
+
+def dmarcartodas():
+	for i in range(36):
+		botones[i].deselect()
 
 "//////////////////////////////////////////////////////////////////////////////////////////////////////"
 #Variables de los checkbuttons
@@ -385,7 +395,16 @@ chbtn4Pol = Checkbutton(frmPol,text="Incremento en los factores de riesgo natura
 chbtn4Pol.place(x=50,y=190)
 
 "/////////////////////////////////////////////////////////////////////////////////////////////////////////////"
-#parte para las sugerencias
+
+mrcrtodas = Button(app, text = "Desmarcar Todas", command =dmarcartodas, width = 20)
+mrcrtodas.place(x = 800, y = 350)
+
+dmrcrtodas = Button(app, text = "Marcar Todas", command = marcartodas, width = 20)
+dmrcrtodas.place(x = 800, y = 300)
+
+
+"/////////////////////////////////////////////////////////////////////////////////////////////////////////////"
+
 botones = [chbtn1Ag,chbtn2Ag,chbtn3Ag,chbtn4Ag,
 		   chbtn1Ai,chbtn2Ai,chbtn3Ai,chbtn4Ai,
 		   chbtn1Sue,chbtn2Sue,chbtn3Sue,chbtn4Sue,
@@ -396,5 +415,20 @@ botones = [chbtn1Ag,chbtn2Ag,chbtn3Ag,chbtn4Ag,
 		   chbtn1Ec,chbtn2Ec,chbtn3Ec,chbtn4Ec,
 		   chbtn1Sc,chbtn2Sc,chbtn3Sc,chbtn4Sc,
 		   chbtn1Pol,chbtn2Pol,chbtn3Pol,chbtn4Pol]
+
+save1.seek(0,0)
+x = eval(save1.readline())
+suge = []
+for i in range(len(x)):
+	if x[i]==1:
+		for j in range(len(RActImp.MatrizIA)):
+			suge.append(RActImp.MatrizIA[j][i])
+		for k in range(40):
+			if suge[k] == 1:
+				botones[k].config(background="light blue")
+	suge = []
+
+#parte para las sugerencias
+
 
 app.mainloop()
