@@ -29,6 +29,7 @@ frm12 = Frame(bg="white",width=1400,height=650)
 frm13 = Frame(bg="white",width=1400,height=650)
 frm132 = Frame(bg = "white", width = 1400, height = 650)
 frm14= Frame(bg="white",width=1400,height=650)
+frm142 = Frame(bg = "white", width = 1400, height = 650)
 frm15 = Frame(bg = 'white', width = 1400, height = 650)
 
 
@@ -49,6 +50,7 @@ def m1():
 	frm12.grid_remove()
 	frm13.grid_remove()
 	frm14.grid_remove()
+	frm15.grid_remove()
 	frm92.grid_remove()
 	frm132.grid_remove()
 
@@ -68,6 +70,7 @@ def m2():
 	frm12.grid_remove()
 	frm13.grid_remove()
 	frm14.grid_remove()
+	frm15.grid_remove()
 	frm92.grid_remove()
 	frm132.grid_remove()
 
@@ -86,6 +89,7 @@ def m3():
 	frm12.grid_remove()
 	frm13.grid_remove()
 	frm14.grid_remove()
+	frm15.grid_remove()
 	frm92.grid_remove()
 	frm132.grid_remove()
 
@@ -104,6 +108,7 @@ def m4():
 	frm12.grid_remove()
 	frm13.grid_remove()
 	frm14.grid_remove()
+	frm15.grid_remove()
 	frm82.grid_remove()
 	frm83.grid_remove()
 	frm92.grid_remove()
@@ -124,6 +129,7 @@ def m5():
 	frm12.grid_remove()
 	frm13.grid_remove()
 	frm14.grid_remove()
+	frm15.grid_remove()
 	frm82.grid_remove()
 	frm83.grid_remove()
 	frm92.grid_remove()
@@ -144,6 +150,7 @@ def m6():
 	frm12.grid_remove()
 	frm13.grid_remove()
 	frm14.grid_remove()
+	frm15.grid_remove()
 	frm82.grid_remove()
 	frm83.grid_remove()
 	frm92.grid_remove()
@@ -164,6 +171,7 @@ def m7():
 	frm12.grid_remove()
 	frm13.grid_remove()
 	frm14.grid_remove()
+	frm15.grid_remove()
 	frm82.grid_remove()
 	frm83.grid_remove()
 	frm92.grid_remove()
@@ -184,6 +192,7 @@ def m8():
 	frm12.grid_remove()
 	frm13.grid_remove()
 	frm14.grid_remove()
+	frm15.grid_remove()
 	frm82.grid_remove()
 	frm83.grid_remove()
 	frm92.grid_remove()
@@ -205,6 +214,7 @@ def m82():
 	frm12.grid_remove()
 	frm13.grid_remove()
 	frm14.grid_remove()
+	frm15.grid_remove()
 	frm83.grid_remove()
 	frm92.grid_remove()
 	frm132.grid_remove()
@@ -225,6 +235,7 @@ def m83():
 	frm12.grid_remove()
 	frm13.grid_remove()
 	frm14.grid_remove()
+	frm15.grid_remove()
 	frm82.grid_remove()
 	frm92.grid_remove()
 	frm132.grid_remove()
@@ -245,6 +256,7 @@ def m9():
 	frm12.grid_remove()
 	frm13.grid_remove()
 	frm14.grid_remove()
+	frm15.grid_remove()
 	frm82.grid_remove()
 	frm83.grid_remove()
 	frm92.grid_remove()
@@ -266,6 +278,7 @@ def m92():
 	frm12.grid_remove()
 	frm13.grid_remove()
 	frm14.grid_remove()
+	frm15.grid_remove()
 	frm82.grid_remove()
 	frm83.grid_remove()
 	frm92.grid()
@@ -287,6 +300,7 @@ def m10():
 	frm12.grid_remove()
 	frm13.grid_remove()
 	frm14.grid_remove()
+	frm15.grid_remove()
 	frm82.grid_remove()
 	frm83.grid_remove()
 	frm92.grid_remove()
@@ -307,6 +321,7 @@ def m11():
 	frm12.grid_remove()
 	frm13.grid_remove()
 	frm14.grid_remove()
+	frm15.grid_remove()
 	frm82.grid_remove()
 	frm83.grid_remove()
 	frm92.grid_remove()
@@ -327,6 +342,7 @@ def m12():
 	frm12.grid()
 	frm13.grid_remove()
 	frm14.grid_remove()
+	frm15.grid_remove()
 	frm82.grid_remove()
 	frm83.grid_remove()
 	frm92.grid_remove()
@@ -347,6 +363,7 @@ def m13():
 	frm12.grid_remove()
 	frm13.grid()
 	frm14.grid_remove()
+	frm15.grid_remove()
 	frm82.grid_remove()
 	frm83.grid_remove()
 	frm92.grid_remove()
@@ -367,6 +384,7 @@ def m132():
 	frm12.grid_remove()
 	frm13.grid_remove()
 	frm14.grid_remove()
+	frm15.grid_remove()
 	frm82.grid_remove()
 	frm83.grid_remove()
 	frm92.grid_remove()
@@ -387,6 +405,30 @@ def m14():
 	frm12.grid_remove()
 	frm13.grid_remove()
 	frm14.grid()
+	frm15.grid_remove()
+	frm142.grid_remove()
+	frm82.grid_remove()
+	frm83.grid_remove()
+	frm92.grid_remove()
+	frm132.grid_remove()
+
+def m142():
+	frm1.grid_remove()
+	frm2.grid_remove()
+	frm3.grid_remove()
+	frm4.grid_remove()
+	frm5.grid_remove()
+	frm6.grid_remove()
+	frm7.grid_remove()
+	frm8.grid_remove()
+	frm9.grid_remove()
+	frm10.grid_remove()
+	frm11.grid_remove()
+	frm12.grid_remove()
+	frm13.grid_remove()
+	frm14.grid_remove()
+	frm15.grid_remove()
+	frm142.grid()
 	frm82.grid_remove()
 	frm83.grid_remove()
 	frm92.grid_remove()
@@ -406,7 +448,8 @@ def m15():
 	frm11.grid_remove()
 	frm12.grid_remove()
 	frm13.grid_remove()
-	frm14.grid()
+	frm14.grid_remove()
+	frm15.grid()
 	frm82.grid_remove()
 	frm83.grid_remove()
 	frm92.grid_remove()
@@ -695,17 +738,19 @@ f14c35= IntVar()
 f14c36= IntVar()
 
 #FRAME 15 PERMISOS Y LICENCIAS AMBIENTALES 11
-f14c1 = IntVar()
-f14c2 = IntVar()
-f14c3 = IntVar()
-f14c4 = IntVar()
-f14c5 = IntVar()
-f14c6 = IntVar()
-f14c7 = IntVar()
-f14c8 = IntVar()
-f14c9 = IntVar()
-f14c10 = IntVar()
-f14c11= IntVar()
+f15c1 = IntVar()
+f15c2 = IntVar()
+f15c3 = IntVar()
+f15c4 = IntVar()
+f15c5 = IntVar()
+f15c6 = IntVar()
+f15c7 = IntVar()
+f15c8 = IntVar()
+f15c9 = IntVar()
+f15c10 = IntVar()
+f15c11= IntVar()
+
+#
 
 
 "//////////////////////////////////////////////////////////////////////////////////////////////////////"
@@ -733,6 +778,9 @@ menubar.menu.add_checkbutton(label = "Adecuación de interiores y exteriores", c
 menubar.menu.add_checkbutton(label = "Vial y Señalización", command = m13)
 menubar.menu.add_checkbutton(label = "Seguridad industrial y salud ocupacional", command = m14)
 menubar.menu.add_checkbutton(label = "Permisos y licencias ambientales", command = m15)
+
+text1 = Label(app, text = "Por Favor, seleccione las medidas de manejo que tendrá el proyecto, cuando haya finalizado, de click en 'Hacer Presupuesto'", background = 'white')
+text1.place(x = 50, y = 50)
 
 app.config(menu = menubar)
 
@@ -981,8 +1029,8 @@ c4f7.place(x = 50, y = 170)
 
 #FRAME 8
 
-next = Button(frm8, text = "Siguiente Página", command = m82, width = 20)
-next.place(x = 1200, y = 25)
+next1 = Button(frm8, text = "Siguiente Página", command = m82, width = 20)
+next1.place(x = 1200, y = 25)
 
 next2 = Button(frm82, text = "Siguiente Página", command = m83, width = 20)
 next2.place(x= 1200, y = 55)
@@ -1436,117 +1484,155 @@ c33f13.place(x = 100, y =500)
 
 #14
 
-c1f14 = Checkbutton(frm14, text = "", offvalue = 0, onvalue = 1, variable = f14c1, background = "white", justify = "left")
+next142 = Button(frm14, text="Siguiente Página", command=m142)
+next142.place(x=1200, y = 50)
+back14 = Button(frm142, text="Anterior Página", command=m14)
+back14.place(x=1200, y= 50)
+
+c1f14 = Checkbutton(frm14, text = "Abrigos plásticos (pantalón y chaqueta).", offvalue = 0, onvalue = 1, variable = f14c1, background = "white", justify = "left")
 c1f14.place(x= 100, y=80 )
 
-c2f14 = Checkbutton(frm14, text = "", offvalue = 0, onvalue = 1, variable = f14c2, background = "white", justify = "left")
-c2f14.place(x= 100, y=80+(30*1) )
+c2f14 = Checkbutton(frm14, text = "Adhesivo con logo para cascos (según manual de comunicaciones)", offvalue = 0, onvalue = 1, variable = f14c2, background = "white", justify = "left")
+c2f14.place(x= 100, y=110 )
 
-c3f14 = Checkbutton(frm14, text = "", offvalue = 0, onvalue = 1, variable = f14c3, background = "white", justify = "left")
-c3f14.place(x= 100, y=80+(30*2) )
+c3f14 = Checkbutton(frm14, text = "Arnés pélvico con eslinga doble y absorvedor de energía", offvalue = 0, onvalue = 1, variable = f14c3, background = "white", justify = "left")
+c3f14.place(x= 100, y=140 )
 
-c4f14 = Checkbutton(frm14, text = "", offvalue = 0, onvalue = 1, variable = f14c4, background = "white", justify = "left")
-c4f14.place(x= 100, y=80+(30*3) )
+c4f14 = Checkbutton(frm14, text = "Aviso troquelado, 70x70 full color, en poliestireno 4x0 REF:2 (Esta obra es tuya)", offvalue = 0, onvalue = 1, variable = f14c4, background = "white", justify = "left")
+c4f14.place(x= 100, y=170 )
 
-c5f14 = Checkbutton(frm14, text = "", offvalue = 0, onvalue = 1, variable = f14c5, background = "white", justify = "left")
-c5f14.place(x= 100, y=80+(30*4) )
+c5f14 = Checkbutton(frm14, text = "Botas caucho con puntera", offvalue = 0, onvalue = 1, variable = f14c5, background = "white", justify = "left")
+c5f14.place(x= 100, y=200 )
 
-c6f14 = Checkbutton(frm14, text = "", offvalue = 0, onvalue = 1, variable = f14c6, background = "white", justify = "left")
-c6f14.place(x= 100, y=80+(30*5) )
+c6f14 = Checkbutton(frm14, text = "Botiquín básico de primeros auxilios red. 115 en lona (cruz roja)", offvalue = 0, onvalue = 1, variable = f14c6, background = "white", justify = "left")
+c6f14.place(x= 100, y=230 )
 
-c7f14 = Checkbutton(frm14, text = "", offvalue = 0, onvalue = 1, variable = f14c7, background = "white", justify = "left")
-c7f14.place(x= 100, y=80+(30*6) )
+c7f14 = Checkbutton(frm14, text = "Camilla rígida en madera con inmovilizador 180 metros x 0,45 mts", offvalue = 0, onvalue = 1, variable = f14c7, background = "white", justify = "left")
+c7f14.place(x= 100, y=260 )
 
-c8f14 = Checkbutton(frm14, text = "", offvalue = 0, onvalue = 1, variable = f14c8, background = "white", justify = "left")
-c8f14.place(x= 100, y=80+(30*7) )
+c8f14 = Checkbutton(frm14, text = "Camisa dril manga larga con dos logos estampados (según manual de comunicaciones)", offvalue = 0, onvalue = 1, variable = f14c8, background = "white", justify = "left")
+c8f14.place(x= 100, y=290 )
 
-c9f14 = Checkbutton(frm14, text = "", offvalue = 0, onvalue = 1, variable = f14c9, background = "white", justify = "left")
-c9f14.place(x= 100, y=80+(30*8) )
+c9f14 = Checkbutton(frm14, text = "Camiseta negra con logo de la Gobernación de Antioquia Adelante Pequeño y atrás grande", offvalue = 0, onvalue = 1, variable = f14c9, background = "white", justify = "left")
+c9f14.place(x= 100, y=320 )
 
-c10f14 = Checkbutton(frm14, text = "", offvalue = 0, onvalue = 1, variable = f14c10, background = "white", justify = "left")
-c10f14.place(x= 100, y =80+(30+9) )
+c10f14 = Checkbutton(frm14, text = "Chalecos reflectivos sencillos con logo de la entidad", offvalue = 0, onvalue = 1, variable = f14c10, background = "white", justify = "left")
+c10f14.place(x= 100, y =350 )
 
-c11f14 = Checkbutton(frm14, text = "", offvalue = 0, onvalue = 1, variable = f14c11, background = "white", justify = "left")
-c11f14.place(x= 100, y =80+(30*10) )
+c11f14 = Checkbutton(frm14, text = "Chalecos reflectivos para bandereros", offvalue = 0, onvalue = 1, variable = f14c11, background = "white", justify = "left")
+c11f14.place(x= 100, y =380)
 
-c12f14 = Checkbutton(frm14, text = "", offvalue = 0, onvalue = 1, variable = f14c12, background = "white", justify = "left")
-c12f14.place(x= 100, y =80+(30*11) )
+c12f14 = Checkbutton(frm14, text = "Chalecos para ingenieros y tecnólogos, con tres logos bordados (según manual de comunicaciones)", offvalue = 0, onvalue = 1, variable = f14c12, background = "white", justify = "left")
+c12f14.place(x= 100, y =410 )
 
-c13f14 = Checkbutton(frm14, text = "", offvalue = 0, onvalue = 1, variable = f14c13, background = "white", justify = "left")
-c13f14.place(x= 100, y =80+(30*12) )
+c13f14 = Checkbutton(frm14, text = "Carné Trabajadores", offvalue = 0, onvalue = 1, variable = f14c13, background = "white", justify = "left")
+c13f14.place(x= 100, y =440)
 
-c14f14 = Checkbutton(frm14, text = "", offvalue = 0, onvalue = 1, variable = f14c14, background = "white", justify = "left")
-c14f14.place(x= 100, y =80+(30*13) )
+c14f14 = Checkbutton(frm14, text = "Carnet de identificación personal con logo de la empresa constructora, carnet plásticos, full color, calibre de 30 micras, tamaño estándar de 86*54 mm+ brazalete portacarnet de seguridad", offvalue = 0, onvalue = 1, variable = f14c14, background = "white", justify = "left")
+c14f14.place(x= 100, y =470 )
 
-c15f14 = Checkbutton(frm14, text = "", offvalue = 0, onvalue = 1, variable = f14c15, background = "white", justify = "left")
-c15f14.place(x= 100, y =80+(30*14) )
+c15f14 = Checkbutton(frm14, text = "Capas plásticas", offvalue = 0, onvalue = 1, variable = f14c15, background = "white", justify = "left")
+c15f14.place(x= 100, y =500 )
 
-c16f14 = Checkbutton(frm14, text = "", offvalue = 0, onvalue = 1, variable = f14c16, background = "white", justify = "left")
-c16f14.place(x= 100, y =80+(30*15) )
+c16f14 = Checkbutton(frm14, text = "Casco de seguridad blanco tipo ingeniero", offvalue = 0, onvalue = 1, variable = f14c16, background = "white", justify = "left")
+c16f14.place(x= 100, y =530 )
 
-c17f14 = Checkbutton(frm14, text = "", offvalue = 0, onvalue = 1, variable = f14c17, background = "white", justify = "left")
-c17f14.place(x= 100, y =80+(30*16) )
+c17f14 = Checkbutton(frm14, text = "Casco dieléctrico amarillo con barbuquejo", offvalue = 0, onvalue = 1, variable = f14c17, background = "white", justify = "left")
+c17f14.place(x= 100, y =560 )
 
-c18f14 = Checkbutton(frm14, text = "", offvalue = 0, onvalue = 1, variable = f14c18, background = "white", justify = "left")
-c18f14.place(x= 100, y =80+(30*17) )
+c18f14 = Checkbutton(frm14, text = "Casco naranja con franja reflectiva para bandereros", offvalue = 0, onvalue = 1, variable = f14c18, background = "white", justify = "left")
+c18f14.place(x= 100, y =590 )
 
-"//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////"
+c19f14 = Checkbutton(frm142, text = "Extintor ABC 10 LB (mas dos recargas)", offvalue = 0, onvalue = 1, variable = f14c19, background = "white", justify = "left")
+c19f14.place(x= 100, y =80 )
 
-c19f14 = Checkbutton(frm142, text = "", offvalue = 0, onvalue = 1, variable = f14c19, background = "white", justify = "left")
-c19f14.place(x= 100, y =80+(30*18) )
+c20f14 = Checkbutton(frm142, text = "Extintor de 20 LB de polvo químico ABC multipropósito (2 recargas, soporte y señalización)", offvalue = 0, onvalue = 1, variable = f14c20, background = "white", justify = "left")
+c20f14.place(x= 100, y =110 )
 
-c20f14 = Checkbutton(frm142, text = "", offvalue = 0, onvalue = 1, variable = f14c20, background = "white", justify = "left")
-c20f14.place(x= 100, y =80+(30*19) )
+c21f14 = Checkbutton(frm142, text = "Gafas protectoras", offvalue = 0, onvalue = 1, variable = f14c21, background = "white", justify = "left")
+c21f14.place(x= 100, y =140 )
 
-c21f14 = Checkbutton(frm142, text = "", offvalue = 0, onvalue = 1, variable = f14c21, background = "white", justify = "left")
-c21f14.place(x= 100, y =80+(30*20) )
+c22f14 = Checkbutton(frm142, text = "Guantes de caucho", offvalue = 0, onvalue = 1, variable = f14c22, background = "white", justify = "left")
+c22f14.place(x= 100, y =170 )
 
-c22f14 = Checkbutton(frm142, text = "", offvalue = 0, onvalue = 1, variable = f14c22, background = "white", justify = "left")
-c22f14.place(x= 100, y =80+(30*21) )
+c23f14 = Checkbutton(frm142, text = "Guantes de carnaza", offvalue = 0, onvalue = 1, variable = f14c23, background = "white", justify = "left")
+c23f14.place(x= 100, y =200 )
 
-c23f14 = Checkbutton(frm142, text = "", offvalue = 0, onvalue = 1, variable = f14c23, background = "white", justify = "left")
-c23f14.place(x= 100, y =80+(30*22) )
+c24f14 = Checkbutton(frm142, text = "Guantes plásticos", offvalue = 0, onvalue = 1, variable = f14c24, background = "white", justify = "left")
+c24f14.place(x= 100, y =230 )
 
-c24f14 = Checkbutton(frm142, text = "", offvalue = 0, onvalue = 1, variable = f14c24, background = "white", justify = "left")
-c24f14.place(x= 100, y =80+(30*23) )
+c25f14 = Checkbutton(frm142, text = "Inmovilizador de cuello", offvalue = 0, onvalue = 1, variable = f14c25, background = "white", justify = "left")
+c25f14.place(x= 100, y =260)
 
-c25f14 = Checkbutton(frm142, text = "", offvalue = 0, onvalue = 1, variable = f14c25, background = "white", justify = "left")
-c25f14.place(x= 100, y =80+(30*24) )
+c26f14 = Checkbutton(frm142, text = "Línea de vida", offvalue = 0, onvalue = 1, variable = f14c26, background = "white", justify = "left")
+c26f14.place(x= 100, y =290)
 
-c26f14 = Checkbutton(frm142, text = "", offvalue = 0, onvalue = 1, variable = f14c26, background = "white", justify = "left")
-c26f14.place(x= 100, y =80+(30*25) )
+c27f14 = Checkbutton(frm142, text = "Manguera para agua lineal", offvalue = 0, onvalue = 1, variable = f14c27, background = "white", justify = "left")
+c27f14.place(x= 100, y =320 )
 
-c27f14 = Checkbutton(frm142, text = "", offvalue = 0, onvalue = 1, variable = f14c27, background = "white", justify = "left")
-c27f14.place(x= 100, y =80+(30*26) )
+c28f14 = Checkbutton(frm142, text = "Manguera para agua rollo", offvalue = 0, onvalue = 1, variable = f14c28, background = "white", justify = "left")
+c28f14.place(x= 100, y =350 )
 
-c28f14 = Checkbutton(frm142, text = "", offvalue = 0, onvalue = 1, variable = f14c28, background = "white", justify = "left")
-c28f14.place(x= 100, y =80+(30*27) )
+c29f14 = Checkbutton(frm142, text = "Overol", offvalue = 0, onvalue = 1, variable = f14c29, background = "white", justify = "left")
+c29f14.place(x= 100, y =380 )
 
-c29f14 = Checkbutton(frm142, text = "", offvalue = 0, onvalue = 1, variable = f14c29, background = "white", justify = "left")
-c29f14.place(x= 100, y =80+(30*28) )
+c30f14 = Checkbutton(frm142, text = "Pantalón dril con un logo estampado (según manual de comunicaciones)", offvalue = 0, onvalue = 1, variable = f14c30, background = "white", justify = "left")
+c30f14.place(x= 100, y =410 )
 
-c30f14 = Checkbutton(frm142, text = "", offvalue = 0, onvalue = 1, variable = f14c30, background = "white", justify = "left")
-c30f14.place(x= 100, y =80+(30*29) )
+c31f14 = Checkbutton(frm142, text = "Protectores auditivos", offvalue = 0, onvalue = 1, variable = f14c31, background = "white", justify = "left")
+c31f14.place(x= 100, y =440)
 
-c31f14 = Checkbutton(frm142, text = "", offvalue = 0, onvalue = 1, variable = f14c31, background = "white", justify = "left")
-c31f14.place(x= 100, y =80+(30*30) )
+c32f14 = Checkbutton(frm142, text = "Radios de comunicación", offvalue = 0, onvalue = 1, variable = f14c32, background = "white", justify = "left")
+c32f14.place(x= 100, y =470 )
 
-c32f14 = Checkbutton(frm142, text = "", offvalue = 0, onvalue = 1, variable = f14c32, background = "white", justify = "left")
-c32f14.place(x= 100, y =80+(30*31) )
+c33f14 = Checkbutton(frm142, text = "Señales de campamento - avisos en poliestireno de 30x50 cm (uso de EPP, extintor, camilla, botiquín, salida de evacuación, sustancias peligrosos, etc).", offvalue = 0, onvalue = 1, variable = f14c33, background = "white", justify = "left")
+c33f14.place(x= 100, y =500 )
 
-c33f14 = Checkbutton(frm142, text = "", offvalue = 0, onvalue = 1, variable = f14c33, background = "white", justify = "left")
-c33f14.place(x= 100, y =80+(30*32) )
+c34f14 = Checkbutton(frm142, text = "Señalización campamento", offvalue = 0, onvalue = 1, variable = f14c34, background = "white", justify = "left")
+c34f14.place(x= 100, y =530 )
 
-c34f14 = Checkbutton(frm142, text = "", offvalue = 0, onvalue = 1, variable = f14c34, background = "white", justify = "left")
-c34f14.place(x= 100, y =80+(30*33) )
-
-c35f14 = Checkbutton(frm142, text = "", offvalue = 0, onvalue = 1, variable = f14c35, background = "white", justify = "left")
-c35f14.place(x= 100, y =80+(30*34) )
-
-c36f14 = Checkbutton(frm142, text = "", offvalue = 0, onvalue = 1, variable = f14c36, background = "white", justify = "left")
-c36f14.place(x= 100, y =80+(30*35) )
+c35f14 = Checkbutton(frm142, text = "Tapabocas para polvo en poliéster", offvalue = 0, onvalue = 1, variable = f14c35, background = "white", justify = "left")
+c35f14.place(x= 100, y =560 )
 
 
-frm14.grid()
+c36f14 = Checkbutton(frm142, text = "Uniformes (pantalón y camisa personal de operación) de acuerdo al manual de obra pública", offvalue = 0, onvalue = 1, variable = f14c36, background = "white", justify = "left")
+c36f14.place(x= 100, y =590 )
+
+#15
+
+c1f15 = Checkbutton(frm15, text = "Visitas y permisos ambientales por la entidad competente", offvalue = 0, onvalue = 1, variable = f15c1, background = "white", justify = "left")
+c1f15.place(x= 100,y= 80)
+
+c2f15 = Checkbutton(frm15, text = "Estudio de línea base", offvalue = 0, onvalue = 1, variable = f15c2, background = "white", justify = "left")
+c2f15.place(x= 100,y= 80+(30*1))
+
+c3f15 = Checkbutton(frm15, text = "Inventarios de fauna", offvalue = 0, onvalue = 1, variable = f15c3, background = "white", justify = "left")
+c3f15.place(x= 100,y= 80+(30*2))
+
+c4f15 = Checkbutton(frm15, text = "Inventarios de flora", offvalue = 0, onvalue = 1, variable = f15c4, background = "white", justify = "left")
+c4f15.place(x= 100,y= 80+(30*3))
+
+c5f15 = Checkbutton(frm15, text = "Estudios hidrológicos e hidráulicos", offvalue = 0, onvalue = 1, variable = f15c5, background = "white", justify = "left")
+c5f15.place(x= 100,y= 80+(30*4))
+
+c6f15 = Checkbutton(frm15, text = "Modelaciones", offvalue = 0, onvalue = 1, variable = f15c6, background = "white", justify = "left")
+c6f15.place(x= 100,y= 80+(30*5))
+
+c7f15 = Checkbutton(frm15, text = "Estudios hidrogeológicos", offvalue = 0, onvalue = 1, variable = f15c7, background = "white", justify = "left")
+c7f15.place(x= 100,y= 80+(30*6))
+
+c8f15 = Checkbutton(frm15, text = "Muestreos isocinéticos", offvalue = 0, onvalue = 1, variable = f15c8, background = "white", justify = "left")
+c8f15.place(x= 100,y= 80+(30*7))
+
+c9f15 = Checkbutton(frm15, text = "Mediciones de ruido ambiental", offvalue = 0, onvalue = 1, variable = f15c9, background = "white", justify = "left")
+c9f15.place(x= 100,y= 80+(30*8))
+
+c10f15 = Checkbutton(frm15, text = "Caracterizaciones de aguas", offvalue = 0, onvalue = 1, variable = f15c10, background = "white", justify = "left")
+c10f15.place(x= 100, y=80+(30*9) )
+
+c11f15 = Checkbutton(frm15, text = "DAA, EIA: estudios arqueológicos (programa de arqueología preventiva).", offvalue = 0, onvalue = 1, variable = f15c11, background = "white", justify = "left")
+c11f15.place(x= 100, y=80+(30*10))
+
+frm1.grid()
 
 app.mainloop()
